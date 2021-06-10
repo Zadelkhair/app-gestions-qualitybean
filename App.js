@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Platform, Button } from 'react-native';
-import Home from './app/Home';
+import Login from './app/Login';
 
 export default function App() {
 
@@ -10,7 +10,7 @@ export default function App() {
   }
 
   return (
-    <Home />
+    <Login />
   );
 }
 
